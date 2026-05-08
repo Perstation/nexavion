@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(9, 29, 48);
+}
+
+img {
+  width: 100vw;
+}
+
+.btnWrapper {
+  position: relative;
+}
+
+.btnWrapper .btnContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: calc(calc(255 / 1023) * 100%);
+  gap: -11px;
+}
+
+.btnWrapper .btnContainer img {
+  width: calc(calc(calc(1024 - 260) / 1024) * 100vw);
+  cursor: pointer;
+}
