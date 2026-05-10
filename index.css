@@ -4,12 +4,21 @@ body {
   margin: 0;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 img {
   width: 100vw;
+  padding: 0;
+  margin: 0;
 }
 
 .btnWrapper {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .btnWrapper .btnContainer {
@@ -18,7 +27,7 @@ img {
   flex-direction: column;
   align-items: center;
   position: absolute;
-  top: calc(calc(255 / 1023) * 100%);
+  top: calc(calc(255 / 1086) * 100%);
   gap: -11px;
 }
 
