@@ -28,7 +28,7 @@ img {
   align-items: center;
   position: absolute;
   top: calc(calc(255 / 1086) * 100%);
-  gap: -11px;
+  gap: 12px;
 }
 
 .btnWrapper .btnContainer img {
