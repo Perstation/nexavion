@@ -24,7 +24,7 @@ body {
   position: fixed;
   top: 50%;
   transform: translateY(-50%);
-  right: min(27px, 2vw);
+  right: 27px;
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -36,9 +36,7 @@ body {
   justify-content: center;
 }
 .wrapper .langBtnContainer .lang img {
-  max-width: 43px;
-  width: 5vw;
-  min-width: 20px;
+  width: 43px;
 }
 
 .wrapper .container {
@@ -96,5 +94,11 @@ img {
   }
   :lang(zh-CN) .wrapper .container.mobile.zh {
     display: flex;
+  }
+  .wrapper .langBtnContainer {
+    right: 21px;
+  }
+  .wrapper .langBtnContainer .lang img {
+    width: 34px;
   }
 }
